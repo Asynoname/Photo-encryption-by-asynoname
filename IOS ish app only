@@ -1,0 +1,7 @@
+Apk add python3
+Apk add py3-pip
+apk add --no-cache $(cat requirements.apk) && pip install -r requirements.txt
+
+if not 
+pip3 install cryptography==3.4.8
+pip3 colorama==0.4.4
