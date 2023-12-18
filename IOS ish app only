@@ -1,5 +1,5 @@
-Apk add python3
-Apk add py3-pip
+apk add python3
+apk add py3-pip
 apk add --no-cache $(cat requirements.apk) && pip install -r requirements.txt
 
 if not 
